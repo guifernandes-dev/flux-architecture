@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.row > button {
+.row>button {
   margin-left: 4px;
   margin-right: 8px;
 }
@@ -40,8 +40,8 @@
 .textbox {
   font-size: 32px;
   padding: 2px;
-  width: 64px;
-  text-align: center;
+  width: 110px;
+  text-align: right;
   margin-right: 4px;
 }
 
@@ -55,7 +55,6 @@
 }
 
 .asyncButton {
-  composes: button;
   position: relative;
 }
 
